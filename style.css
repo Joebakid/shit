@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: black;
+  background-color: rgb(168, 123, 81);
+  position: relative;
+  overflow-x: hidden;
+  /* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.btn {
+  background-color: #444;
+  padding: 10px 30px;
+
+  color: white;
+  border-radius: 14px;
+}
+
+/* ********************************* */
+
+/* NAV */
+
+nav {
+  border-bottom: 1px solid #444;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 20px;
+  height: auto;
+}
+
+.nav-link-li {
+  text-decoration: none;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.nav-link-item {
+  text-decoration: none;
+}
+
+.btn-unique-color {
+  color: white;
+}
+
+/* ********************************* */
+
+/* MAIN */
+
+main {
+  margin: 150px 0;
+}
+
+.section-one {
+  /* border: 1px solid red; */
+  box-shadow: 0 4px 6px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+.intro {
+  /* border: 3px solid gray; */
+  background-color: bisque;
+  /* padding: 10px; */
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.intro-text {
+  /* padding: 20px 0; */
+}
+
+.title-intro-section-one {
+  font-size: 2rem;
+}
+
+.sub-title-intro-section-one {
+  color: #444;
+}
+
+.sub-title-intro-section-one,
+.title-intro-section-one {
+  text-align: center;
+}
+
+.title-intro {
+  /* font-size: 4rem; */
+  text-align: center;
+  margin-bottom: -15px;
+  border-radius: 10px;
+  background-color: rgb(221, 191, 22);
+  padding: 30px 0 0 0;
+  color: #444;
+}
+
+.shit-him {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-one,
+.section-two {
+  margin-bottom: 300px;
+}
+
+.intro-text-p {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 3;
+}
+
+.a-link {
+  text-decoration: none;
+  /* display: flex; */
+
+  text-align: center;
+}
+
+.desktop {
+  display: none;
+}
+
+.shit-emoji {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 100px 0;
+}
