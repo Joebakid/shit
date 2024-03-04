@@ -91,6 +91,10 @@ main {
   /* padding: 10px; */
   padding: 30px 0;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-text {
@@ -126,6 +130,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 20px;
 }
 
 .section-one,
@@ -227,4 +232,42 @@ main {
 
 .credit-link {
   color: rgb(247, 159, 76);
+}
+
+@media screen and (min-width: 1300px) {
+  .title-intro-section-one {
+    font-size: 3rem;
+  }
+
+  .sub-title-intro-section-one {
+    font-size: 1.5rem;
+  }
+
+  .bubble {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .shit-him {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    border-radius: 20px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .bgc {
+    padding: 100px 0;
+  }
 }
